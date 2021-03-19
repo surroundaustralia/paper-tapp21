@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex car-atkinson"] 0 "car-atkinson.aux" "car-atkinson.bbl" "car-atkinson" 0
+["bibtex car-atkinson"] 1616137887 "car-atkinson.aux" "car-atkinson.bbl" "car-atkinson" 1616137889
   "/Library/Application Support/MiKTeX/texmfs/install/bibtex/bst/bibtex/plain.bst" 1614858540 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
   "TaPP21.bib" 1616128620 5501 81b2eaa7966db279ed9d77ff13e779c8 ""
-  "car-atkinson.aux" 0 -1 0 "pdflatex"
+  "car-atkinson.aux" 1616137888 4603 c265bcf58d958d6306cc514f6f3ecef2 "pdflatex"
   (generated)
-  "car-atkinson.bbl"
   "car-atkinson.blg"
-["pdflatex"] 1616134892 "/Users/nick/Work/surround/paper-tapp2021/car-atkinson.tex" "/Users/nick/Work/surround/paper-tapp2021/car-atkinson.pdf" "car-atkinson" 1616134892
+  "car-atkinson.bbl"
+["pdflatex"] 1616137887 "/Users/nick/Work/surround/paper-tapp2021/car-atkinson.tex" "/Users/nick/Work/surround/paper-tapp2021/car-atkinson.pdf" "car-atkinson" 1616137889
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/base/8r.enc" 1614858557 4993 1194fb36dfcb11d9ae9802f2b00b60a3 ""
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/symbol/psyr.tfm" 1136736254 1408 5937f58aa508ea2cea4901c07d10f5fe ""
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb7t.tfm" 1136736254 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -172,18 +172,22 @@
   "/Users/nick/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/ts1ptm.fd" 1614859019 653 3c2b212581b38326a2d43769c35b19e7 ""
   "/Users/nick/Library/Application Support/MiKTeX/texmfs/install/tex/latex/refcount/refcount.sty" 1614859141 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "/Users/nick/Library/Application Support/MiKTeX/texmfs/install/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1614859114 9715 b051d5b493d9fe5f4bc251462d039e5f ""
-  "/Users/nick/Work/surround/paper-tapp2021/car-atkinson.aux" 1616134892 8 a94a2480d3289e625eea47cd1b285758 ""
-  "/Users/nick/Work/surround/paper-tapp2021/car-atkinson.tex" 1616134888 14723 4fa5dcc57616ba24d284adf49a01de8f ""
-  "car-atkinson.aux" 0 -1 0 "pdflatex"
-  "car-atkinson.bbl" 0 -1 0 "bibtex car-atkinson"
-  "car-atkinson.out" 0 -1 0 "pdflatex"
-  "car-atkinson.tex" 1616134888 14723 4fa5dcc57616ba24d284adf49a01de8f ""
+  "/Users/nick/Work/surround/paper-tapp2021/car-atkinson.aux" 1616137888 4603 c265bcf58d958d6306cc514f6f3ecef2 ""
+  "/Users/nick/Work/surround/paper-tapp2021/car-atkinson.tex" 1616137884 16647 f96197c75b2d340d81fa472898ea4122 ""
+  "car-atkinson.aux" 1616137888 4603 c265bcf58d958d6306cc514f6f3ecef2 "pdflatex"
+  "car-atkinson.bbl" 1616137887 1366 dc8e2d21b1da05ebf88e3c8cf32fab18 "bibtex car-atkinson"
+  "car-atkinson.out" 1616137888 736 a68461c697865dea46c0daede5599ab7 "pdflatex"
+  "car-atkinson.tex" 1616137884 16647 f96197c75b2d340d81fa472898ea4122 ""
+  "images/data-service.png" 1616137202 15945 c8347bf2516627e2a257968c08ccc3ab ""
   "images/overview.png" 1616119710 19960 aefdcf1af3e4651cddd82279ad6ee796 ""
+  "images/provwf-to-sop.png" 1616137202 20783 2e708939103814e7d33460d038166ef6 ""
+  "images/provwf.png" 1616137202 16523 7176353e741830dc93869cc95161755b ""
+  "images/reified-graph-data.png" 1616137457 7902 9182a5185c3dba7e5995601c6ee454c9 ""
   "usenix-2020-09.sty" 1614858785 3795 62775b94e6f3aaf4bda0ce3e06335b5f ""
   (generated)
-  "car-atkinson.pdf"
   "/Users/nick/Work/surround/paper-tapp2021/car-atkinson.pdf"
   "car-atkinson.out"
   "car-atkinson.aux"
-  "/Users/nick/Work/surround/paper-tapp2021/car-atkinson.log"
+  "car-atkinson.pdf"
   "car-atkinson.log"
+  "/Users/nick/Work/surround/paper-tapp2021/car-atkinson.log"

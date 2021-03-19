@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.4)  19 MAR 2021 16:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.4)  19 MAR 2021 17:11
 entering extended mode
 **/Users/nick/Work/surround/paper-tapp2021/car-atkinson.tex
 (/Users/nick/Work/surround/paper-tapp2021/car-atkinson.tex
@@ -522,7 +522,20 @@ LaTeX Info: Redefining \] on input line 2924.
 File: l3backend-pdftex.def 2021-03-02 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count299
 \l__pdf_internal_box=\box60
-) (/Users/nick/Work/surround/paper-tapp2021/car-atkinson.aux)
+) (/Users/nick/Work/surround/paper-tapp2021/car-atkinson.aux
+
+LaTeX Warning: Label `fig:overview' multiply defined.
+
+
+LaTeX Warning: Label `fig:overview' multiply defined.
+
+
+LaTeX Warning: Label `fig:overview' multiply defined.
+
+
+LaTeX Warning: Label `fig:overview' multiply defined.
+
+)
 \openout1 = `car-atkinson.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
@@ -605,6 +618,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 22.
 LaTeX Info: Redefining \pageref on input line 22.
 LaTeX Info: Redefining \nameref on input line 22.
+ (/Users/nick/Work/surround/paper-tapp2021/car-atkinson.out) (/Users/nick/Work/surround/paper-tapp2021/car-atkinson.out)
 \@outlinefile=\write4
 \openout4 = `car-atkinson.out'.
 
@@ -654,25 +668,9 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 82
 (/Users/nick/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-
-LaTeX Warning: Citation `dan_brickley_rdf_2014' on page 1 undefined on input line 82.
-
-
-LaTeX Warning: Citation `w3c_owl_working_group_owl_2012' on page 1 undefined on input line 82.
-
-
-LaTeX Warning: Citation `knublauch_shapes_2017' on page 1 undefined on input line 88.
-
-
 Underfull \hbox (badness 3291) in paragraph at lines 88--89
 []\T1/ptm/m/n/10 (+20) the data validation power of modern constraints
  []
-
-
-LaTeX Warning: Citation `moreau_prov-dm_2013' on page 1 undefined on input line 93.
-
-
-LaTeX Warning: Citation `lebo_prov-o:_2013' on page 1 undefined on input line 94.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 113.
@@ -692,17 +690,11 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 ]
-
-LaTeX Warning: Reference `fig:overview' on page 2 undefined on input line 117.
-
-<images/overview.png, id=20, 551.05875pt x 176.15813pt>
+<images/overview.png, id=45, 551.05875pt x 176.15813pt>
 File: images/overview.png Graphic file (type png)
 <use images/overview.png>
 Package pdftex.def Info: images/overview.png  used on input line 123.
 (pdftex.def)             Requested size: 505.89pt x 161.72606pt.
-
-LaTeX Warning: Reference `fig:overview' on page 2 undefined on input line 129.
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 134--134
 [][][][][]$\T1/pcr/m/n/8 https : / / www . topquadrant . com / products /
@@ -712,18 +704,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 134--134
 Underfull \hbox (badness 3872) in paragraph at lines 136--137
 []\T1/ptm/m/n/10 (+20) SOP records PROV-DM provenance for all
  []
-
-
-LaTeX Warning: Citation `tom_de_nies_git2prov_nodate' on page 2 undefined on input line 152.
-
-/Users/nick/Work/surround/paper-tapp2021/car-atkinson.tex:152: Undefined control sequence.
-l.152 ...dentifiers for versions of PROV-DM \textt
-                                                  {Entities} using Git and r...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
 
 Underfull \hbox (badness 1968) in paragraph at lines 152--153
@@ -745,55 +725,65 @@ Underfull \hbox (badness 4752) in paragraph at lines 163--164
 []\T1/ptm/m/n/10 (+20) used to create reified provenance for RDF
  []
 
+<images/provwf.png, id=56, 492.33937pt x 149.50856pt>
+File: images/provwf.png Graphic file (type png)
+<use images/provwf.png>
+Package pdftex.def Info: images/provwf.png  used on input line 175.
+(pdftex.def)             Requested size: 505.89pt x 153.63051pt.
+<images/provwf-to-sop.png, id=57, 501.37312pt x 137.7647pt>
+File: images/provwf-to-sop.png Graphic file (type png)
+<use images/provwf-to-sop.png>
+Package pdftex.def Info: images/provwf-to-sop.png  used on input line 184.
+(pdftex.def)             Requested size: 505.89pt x 139.013pt.
+<images/data-service.png, id=58, 336.50719pt x 177.51318pt>
+File: images/data-service.png Graphic file (type png)
+<use images/data-service.png>
+Package pdftex.def Info: images/data-service.png  used on input line 193.
+(pdftex.def)             Requested size: 505.89pt x 266.87042pt.
+<images/reified-graph-data.png, id=59, 216.81pt x 126.4725pt>
+File: images/reified-graph-data.png Graphic file (type png)
+<use images/reified-graph-data.png>
+Package pdftex.def Info: images/reified-graph-data.png  used on input line 202.
+(pdftex.def)             Requested size: 505.89pt x 295.13971pt.
 
-Underfull \hbox (badness 1112) in paragraph at lines 199--204
+Underfull \hbox (badness 1112) in paragraph at lines 236--241
 []\T1/ptm/m/n/10 (+20) And the 'cite' package sorts your citations by their
  []
 
-
-LaTeX Warning: Reference `sec:figs' on page 2 undefined on input line 210.
-
-[2]
-
-LaTeX Warning: Reference `fig:vectors' on page 3 undefined on input line 244.
-
-
-LaTeX Warning: Reference `fig:vectors' on page 3 undefined on input line 245.
-
-
-Underfull \hbox (badness 6641) in paragraph at lines 281--285
+[2] [3 </Users/nick/Work/surround/paper-tapp2021/images/overview.png> </Users/nick/Work/surround/paper-tapp2021/images/provwf.png> </Users/nick/Work/surround/paper-tapp2021/images/provwf-to-sop.png>] [4 </Users/nick/Work/surround/paper-tapp2021/images/data-service.png> </Users/nick/Work/surround/paper-tapp2021/images/reified-graph-data.png>]
+Underfull \hbox (badness 6641) in paragraph at lines 318--322
 \T1/ptm/m/n/10 (+20) USENIX program committees give extra points to
  []
 
-No file car-atkinson.bbl.
-[3 </Users/nick/Work/surround/paper-tapp2021/images/overview.png>] (/Users/nick/Work/surround/paper-tapp2021/car-atkinson.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+(/Users/nick/Work/surround/paper-tapp2021/car-atkinson.bbl
+Underfull \hbox (badness 1024) in paragraph at lines 4--7
+[]\T1/ptm/m/n/10 (+20) Dan Brickley and R.V. Guha.  RDF Schema 1.1.
+ []
 
 
-Package rerunfilecheck Warning: File `car-atkinson.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+Underfull \hbox (badness 1708) in paragraph at lines 24--30
+\T1/ptm/m/n/10 (+20) Content as W3C PROV.  In \T1/ptm/m/it/10 (+20) Proceedings of the
+ []
 
-Package rerunfilecheck Info: Checksums for `car-atkinson.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  A68461C697865DEA46C0DAEDE5599AB7;736.
+) [5] (/Users/nick/Work/surround/paper-tapp2021/car-atkinson.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `car-atkinson.out' has not changed.
+(rerunfilecheck)             Checksum: A68461C697865DEA46C0DAEDE5599AB7;736.
  ) 
 Here is how much of TeX's memory you used:
- 21497 strings out of 481267
- 398138 string characters out of 2907334
- 695167 words of memory out of 3000000
- 38081 multiletter control sequences out of 15000+200000
- 465797 words of font info for 229 fonts, out of 3000000 for 9000
+ 21557 strings out of 481267
+ 399469 string characters out of 2907334
+ 698149 words of memory out of 3000000
+ 38107 multiletter control sequences out of 15000+200000
+ 466447 words of font info for 236 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
- 113i,10n,116p,493b,743s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 113i,10n,116p,522b,743s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/base/8r.enc}</Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/courier/ucrr8a.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmb8a.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmr8a.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/nick/Work/surround/paper-tapp2021/car-atkinson.pdf (3 pages, 108881 bytes).
+Output written on /Users/nick/Work/surround/paper-tapp2021/car-atkinson.pdf (5 pages, 176503 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
- 17 named destinations out of 1000 (max. 500000)
- 82962 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 127 PDF objects out of 1000 (max. 8388607)
+ 30 named destinations out of 1000 (max. 500000)
+ 83014 words of extra memory for PDF output out of 89155 (max. 10000000)
 

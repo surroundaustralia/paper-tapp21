@@ -846,8 +846,18 @@ INPUT /Users/nick/Library/Application Support/MiKTeX/texmfs/install/tex/generic/
 INPUT /Users/nick/Library/Application Support/MiKTeX/texmfs/install/tex/generic/gettitlestring/gettitlestring.sty
 INPUT /Users/nick/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kvoptions/kvoptions.sty
 INPUT /Users/nick/Library/Application Support/MiKTeX/texmfs/install/tex/generic/ltxcmds/ltxcmds.sty
-OUTPUT /Users/nick/Work/surround/paper-tapp2021/car-atkinson.out
+INPUT /Users/nick/Work/surround/paper-tapp2021/car-atkinson.out
+INPUT /Users/nick/Work/surround/paper-tapp2021/car-atkinson.out
+INPUT /Users/nick/Work/surround/paper-tapp2021/car-atkinson.out
+INPUT /Users/nick/Work/surround/paper-tapp2021/car-atkinson.out
+INPUT /Users/nick/Work/surround/paper-tapp2021/car-atkinson.out
+INPUT /Users/nick/Work/surround/paper-tapp2021/car-atkinson.out
+INPUT /Users/nick/Work/surround/paper-tapp2021/car-atkinson.out
+INPUT /Users/nick/Work/surround/paper-tapp2021/car-atkinson.out
 OUTPUT /Users/nick/Work/surround/paper-tapp2021/car-atkinson.pdf
+INPUT /Users/nick/Work/surround/paper-tapp2021/car-atkinson.out
+INPUT /Users/nick/Work/surround/paper-tapp2021/car-atkinson.out
+OUTPUT /Users/nick/Work/surround/paper-tapp2021/car-atkinson.out
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr8t.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb8t.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr8t.tfm
@@ -889,7 +899,6 @@ INPUT /Users/nick/Library/Application Support/MiKTeX/texmfs/install/tex/latex/ps
 INPUT /Users/nick/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/ts1ptm.fd
 INPUT /Users/nick/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/ts1ptm.fd
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr8c.tfm
-INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb8t.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/zptmcmr.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/zptmcmr.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/zptmcmr.tfm
@@ -938,18 +947,47 @@ INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/p
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmri8t.vf
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmr8c.vf
+INPUT /Users/nick/Work/surround/paper-tapp2021/images/overview.png
+INPUT /Users/nick/Work/surround/paper-tapp2021/images/overview.png
+INPUT /Users/nick/Work/surround/paper-tapp2021/images/overview.png
+INPUT /Users/nick/Work/surround/paper-tapp2021/images/overview.png
+INPUT /Users/nick/Work/surround/paper-tapp2021/images/overview.png
+INPUT /Users/nick/Work/surround/paper-tapp2021/images/overview.png
+INPUT /Users/nick/Work/surround/paper-tapp2021/images/overview.png
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb8t.tfm
+INPUT /Users/nick/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/pslatex/pcrr8tn.tfm
+INPUT /Users/nick/Work/surround/paper-tapp2021/images/provwf.png
+INPUT /Users/nick/Work/surround/paper-tapp2021/images/provwf.png
+INPUT /Users/nick/Work/surround/paper-tapp2021/images/provwf.png
+INPUT /Users/nick/Work/surround/paper-tapp2021/images/provwf.png
+INPUT /Users/nick/Work/surround/paper-tapp2021/images/provwf.png
+INPUT /Users/nick/Work/surround/paper-tapp2021/images/provwf.png
+INPUT /Users/nick/Work/surround/paper-tapp2021/images/provwf.png
+INPUT /Users/nick/Work/surround/paper-tapp2021/images/provwf-to-sop.png
+INPUT /Users/nick/Work/surround/paper-tapp2021/images/provwf-to-sop.png
+INPUT /Users/nick/Work/surround/paper-tapp2021/images/provwf-to-sop.png
+INPUT /Users/nick/Work/surround/paper-tapp2021/images/provwf-to-sop.png
+INPUT /Users/nick/Work/surround/paper-tapp2021/images/provwf-to-sop.png
+INPUT /Users/nick/Work/surround/paper-tapp2021/images/provwf-to-sop.png
+INPUT /Users/nick/Work/surround/paper-tapp2021/images/provwf-to-sop.png
+INPUT /Users/nick/Work/surround/paper-tapp2021/images/data-service.png
+INPUT /Users/nick/Work/surround/paper-tapp2021/images/data-service.png
+INPUT /Users/nick/Work/surround/paper-tapp2021/images/data-service.png
+INPUT /Users/nick/Work/surround/paper-tapp2021/images/data-service.png
+INPUT /Users/nick/Work/surround/paper-tapp2021/images/data-service.png
+INPUT /Users/nick/Work/surround/paper-tapp2021/images/data-service.png
+INPUT /Users/nick/Work/surround/paper-tapp2021/images/data-service.png
+INPUT /Users/nick/Work/surround/paper-tapp2021/images/reified-graph-data.png
+INPUT /Users/nick/Work/surround/paper-tapp2021/images/reified-graph-data.png
+INPUT /Users/nick/Work/surround/paper-tapp2021/images/reified-graph-data.png
+INPUT /Users/nick/Work/surround/paper-tapp2021/images/reified-graph-data.png
+INPUT /Users/nick/Work/surround/paper-tapp2021/images/reified-graph-data.png
+INPUT /Users/nick/Work/surround/paper-tapp2021/images/reified-graph-data.png
+INPUT /Users/nick/Work/surround/paper-tapp2021/images/reified-graph-data.png
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmr8t.vf
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmb8t.vf
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb8r.tfm
-INPUT /Users/nick/Work/surround/paper-tapp2021/images/overview.png
-INPUT /Users/nick/Work/surround/paper-tapp2021/images/overview.png
-INPUT /Users/nick/Work/surround/paper-tapp2021/images/overview.png
-INPUT /Users/nick/Work/surround/paper-tapp2021/images/overview.png
-INPUT /Users/nick/Work/surround/paper-tapp2021/images/overview.png
-INPUT /Users/nick/Work/surround/paper-tapp2021/images/overview.png
-INPUT /Users/nick/Work/surround/paper-tapp2021/images/overview.png
-INPUT /Users/nick/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/pslatex/pcrr8tn.tfm
-INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmr8t.vf
-INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /Users/nick/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/pslatex/pcrr8tn.vf
 INPUT /Users/nick/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/pslatex/pcrr8rn.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmr8t.vf
@@ -958,6 +996,10 @@ INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/pt
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /Users/nick/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/pslatex/pcrr8tn.vf
 INPUT /Users/nick/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/pslatex/pcrr8rn.tfm
+INPUT /Users/nick/Work/surround/paper-tapp2021/car-atkinson.bbl
+INPUT /Users/nick/Work/surround/paper-tapp2021/car-atkinson.bbl
+INPUT /Users/nick/Work/surround/paper-tapp2021/car-atkinson.bbl
+INPUT /Users/nick/Work/surround/paper-tapp2021/car-atkinson.bbl
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/zptmcmrm.vf
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/symbol/psyr.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/zpzccmry.vf
