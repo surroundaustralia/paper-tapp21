@@ -27,7 +27,7 @@
 \date{}
 
 % make title bold and 14 pt font (Latex default is non-bold, 16 pt)
-\title{\Large \bf An industry, multi-system, PROV-DM-based architecture for Explainable AI: Application Track}
+\title{\Large \bf An industrial provenance capability based on PROV for broad ranging IT projects including AI: Application Track}
 
 % for single author (just remove % characters)
 \author{
@@ -52,17 +52,17 @@ Open Geospatial Consortium\\
 
 % Structure: insights, experience, and lessons learned when deploying provenance systems
 SURROUND Australia Pty Ltd is a small technology company focused on explainable 
-AI and knowledge management products. At the core of our company operations is 
-standardised provenance tracking using the PROV Data Model (PROV-DM). Using standardised 
-provenance throughout our company lets us both assure customers that any results 
-we produce for them are explainable, regardless of the specific systems we employ, 
-and also allows us to easily learn about multi-system performance.
+AI \& knowledge management. Company operations use 
+standardised provenance tracking based on the PROV Data Model (PROV-DM). This
+allows us both assure customers that any results 
+we produce for them are explainable, regardless of specific systems used, 
+and also allows us to easily perform automated learning on top of about multi-part systems.
 
-We generate PROV-DM-based provenance in all our important business workflows by 
-using either our in-house \textit{ProvWF} tool or workflows within our 
-proprietary \textit{SURROUND Ontology Platform} (SOP) tool. We also implement PROV-DM within our 
-project and company data which are mostly Knowledge Graph (KG) products. We ''hand off'' certain
-forms of provenance tracking - for some data and software - to Git-based systems but do ensure 
+We generate PROV-DM provenance in important business workflows by 
+using our \textit{ProvWF} tool or workflows within our 
+the \textit{SURROUND Ontology Platform} (SOP) tool. We also implement PROV-DM within our 
+project and company data which are mostly Knowledge Graph (KG)s. We ``hand off'' certain
+forms of provenance tracking - for some data and software - to Git-based systems but ensure 
 that they integrate with our PROV-DM model.
 \end{abstract}
 
@@ -70,7 +70,7 @@ that they integrate with our PROV-DM model.
 %-------------------------------------------------------------------------------
 \section{Introduction}
 %-------------------------------------------------------------------------------
-SURROUND Australia Pty Ltd (``SURROUND'') is a small technology company founded 6 years ago. While
+SURROUND Australia Pty Ltd (``SURROUND'') is a small technology company
 aiming to supply mainstream AI and knowledge management products to government and private
 sector markets, SURROUND differentiates itself from competitors through sophisticated use
 of Semantic Web data due to the belief that it is the form that best preserves meaning 
@@ -78,7 +78,7 @@ over time, system \& organisational change. Specific value propositions for SURR
 based on Semantic Web data use, are:
 
 \begin{itemize}
-  \item the expressivity of RDFS / OWL2~\cite{dan_brickley_rdf_2014,w3c_owl_working_group_owl_2012} alows for infinitely complex, yet cohesive, data modelling
+  \item the expressivity of RDFS\footnote{\url{https://www.w3.org/TR/rdf-schema/}} / OWL2\footnote{url{https://www.w3.org/TR/owl2-overview/}} alows for infinitely complex, yet cohesive, data modelling
   \item the ability to directly reuse many existing, sophisticated, publishd models (ontologies)
   \item the extensibility of RDF graph-based data structures - no need to alter system schema as they grow
   \item the system-independence of Semantic Web data formats allowing for seamless under-the-hood system changes
@@ -97,9 +97,9 @@ across all our different systems.
 
 In this paper we make no new research claim - this is an \textit{Applications Track} paper - but we do claim 
 to show ``innovative use of provenance'' and ``the deployment of provenance-based solutions'' that indicate
-a certain maturity of approach to the use of provenance for operational tasks. We expect this will be of 
-interests to our industry peers and to academics wishing to know where industry implementers are up to,
-in order to consider next research steps.
+a certain maturity of approach in the use of provenance for operational tasks. We expect this will be of 
+interests to our industry peers and to academics wishing to know where industry implementers are up to, to
+help with the assessment of provenace research' impact and for researchers to consider next research steps.
 
 We will overview our specific company-wide provenance systems, discuss two projects that use them, indicate 
 why we've chosen certain PROV-related implementations over others and where we think some of the provenance
@@ -110,7 +110,7 @@ standards need enhancement for our purposes.
 \section{Simple provenance theory, complex practice}
 %-------------------------------------------------------------------------------
 In general, extraction of useful information present within heterogeneous or large-scale data contexts may be performed in several 
-ways. If some of the data has some known structure then queries can be used to select relevant subsets. The trivial form 
+ways. If some of the data has known structure then queries can be used to select relevant subsets. The trivial form 
 of this is searching against text content, with various degrees of sophistication. These may involve statistical 
 techniques to identify patterns in the data. SURROUND uses Machine Learning (ML) approaches to train systems to correlate or 
 discover information based on various patterns. We also use Semantic or Knowledge Graph (KG)-based contextual information to 
@@ -134,21 +134,21 @@ The technical implementation challenges we face are characterised as:
 
 \begin{enumerate}
   \item \textbf{Shared entity identification} - between different systems as they work on and pass the entities
-  \item \textbf{Granularity} - having useful levels of knowledge detail whilst retaining ability to have overviews from the process or system level
+  \item \textbf{Granularity} - capturing useful levels of provenance detail while allowing for process or system level aggregations
 \end{enumerate}
 
-Shared entity identification is well handled using the RDF meta model, which uses unique URIs for things (entities and others) and 
-the Open World Assumption, as multiple systems can represent knowledge in RDF data structures and then join knowledge by referencing 
-shared URIs. SURROUND not only communicates our provenance infromation in RDF but, for most projects, our primary data also. Since 
-our project data, perhaps electronic records described using RDF metadata, and our provenance information describing that data's 
-generation are both represented in RDF, we can identify entities across both information holdings too, not just across sytems within 
-each holding. For non-RDF information, such as Git-based software and data version information, we ensure that URIs are also used.
+The first we handle using the RDF, which uses unique URIs for things (entities and others) and 
+the Open World Assumption: multiple systems can represent knowledge in separate RDF datasets and join them by referencing 
+shared URIs. SURROUND not only uses RDf for provenance but, for most projects, primary data also. When 
+project data, perhaps electronic records' RDF metadata, and provenance information for it
+are both represented in RDF, we can identify entities across both information holdings too, not just across sytems within 
+each holding. For non-RDF information, such as Git-based software and data version information, we ensure that URIs are also used and referenced.
 
-Architecturally, our project data and provenance can be integrated across multiple subsystems if:
+Our project data and provenance can be integrated across multiple subsystems if:
 
 \begin{enumerate}
   \item Object identity is established in KGs and they are accessed via APIs
-  \item Object identity is managed within the KG whenever ``human in the loop'' interactions are required
+  \item Object identity is managed within the KG whenever HITL interactions are required
   \item Processing subsystems preserve and report canonical object identities
   \item Coherent sets of objects may be managed in specialised persistence systems, such as Git, as long as the description of datasets containing them are managed within KGs (see dataset granularity)
   \item All processing reports' provenance, along with outputs, use our canonical model - PROV-DM
@@ -157,7 +157,7 @@ Architecturally, our project data and provenance can be integrated across multip
 
 To achieve the above points, we have implemented systems and methods described in the next section. To demonstrate what such implementation
 allows for, we include Figure~\ref{fig:sankey} which shows the user interface of the \textit{SURROUND Ontology Platform} (SOP) displaying provenance 
-information within a sankey diagram. The provenance information was generated according to PROV-DM/PROV-O by SURROUND's processing workflow tool 
+information within a sankey diagram. The provenance information was generated according to PROV-DM/PROV-O (PROV) by SURROUND's processing workflow tool 
 \textit{ProvWF} performing Named Entity Recognition against electronic records matching entities against some of SURROUND's Knowledge Graph products. In addition to displaying the provenance information in particular ways, SOP also managed it in bundles as \textit{Managed Graphs} which, from SOP's point of view are yet another semantic asset for which provenance (and ownership, access etc.) is automatically stored.
 
 %-------------------------------------------------------------------------------
@@ -169,8 +169,9 @@ information within a sankey diagram. The provenance information was generated ac
   \end{figure*}
 %-------------------------------------------------------------------------------
 
-The provenance granularity issue identified above can be summarised by examining a range of different types of processing that may typically 
-occur in a heterogeneous systems and do occur within our projects. Table~\ref{tab:1} lists processing functions, examples of them and (our) required granularity.
+The provenance granularity issue can be addressed by examining a range of different types of processing that may typically 
+occur in a heterogeneous systems and do occur within our projects. Table~\ref{tab:1} lists processing functions, examples of them and (our) required granularity. We perform a per-scenario assessment of the required provenance granlarity for projects and then, since we are using PROV everywhere,
+usually employ existing tools of ours to create and store it.
 
 \begin{table*}[t]
   \centering
@@ -209,7 +210,7 @@ occur in a heterogeneous systems and do occur within our projects. Table~\ref{ta
 % systems and processes, but not for minor projects, some legacy systems or administrative support functions.
 
 %-------------------------------------------------------------------------------
-\begin{figure*}
+\begin{figure*}[ht]
   \begin{center}
     \includegraphics[width=\textwidth]{images/overview.png}
   \end{center}
@@ -267,7 +268,7 @@ In addition to these tools, we implement provenance tracking with general-purpos
 % %-------------------------------------------------------------------------------
 
 %-------------------------------------------------------------------------------
-\begin{figure*}
+\begin{figure*}[ht]
   \label{fig:provwf-to-sop}
   \begin{center}
     \includegraphics[width=\textwidth]{images/provwf-to-sop.png}
@@ -283,12 +284,17 @@ Much of our provenance modelling will be familiar to PROV users: chains of \text
 \textit{Agents}. We do have several project scenarios which cause us to implement slight specialisations and two are given in project-
 specific case studies next.
 
-\subsection{Electronic Records assessment}
+\subsection{Project 1: Electronic Records assessment}
 A recent project of ours has applied Natural Language Processing and KGs to electronic Records classification for archiving: we have extracted elements of Records' content, compared them with managed sources of \textit{context} presented as KGs and used ML to learn
 how best to classify the Records.
 
 Important in this project's provenance capture has been the use of data services - our classification workflow system querying our own
-KG services - and the tracking of both whole-workflow and individual data statement provenance. Figure~\ref{fig:reified-graph-data} shows our model for data service query tracking within a workflow. Whole-of-workflow provenance is needed to track what configurations produce what results. Individual data statement provenance is needed for classifications within a Record's medata in RDF so individual Record results can be verified. Workflow, metadata and metadata provenance are all stored in an RDF database and are crosslinked.
+KG services - and the tracking of both whole-workflow and individual data statement provenance. Figure~\ref{fig:reified-graph-data} shows our 
+model for data service query tracking within a workflow. Whole-of-workflow provenance is needed to track what configurations produce what 
+results. All of the instances of a workflow's execution and the individual elements within it are recorded as PROV \texttt{Activity} instances
+and data as PROV \texttt{Entities}.  
+Individual data statement provenance is needed for classifications within a Record's medata in RDF so individual Record results can 
+be verified. Workflow, metadata and metadata provenance are all stored in an RDF database and are crosslinked.
 
 %-------------------------------------------------------------------------------
 \begin{figure*}
@@ -296,20 +302,76 @@ KG services - and the tracking of both whole-workflow and individual data statem
     \includegraphics[width=\textwidth]{images/ds-reified.png}
   \end{center}
   \caption{\label{fig:reified-graph-data} \textbf{A}. A \textit{Service query block} from our \textit{Block Library}, implemented within our \textit{ProvWF} framework using a Query and other configuration (Config) to query a Web Service agent for a Result. Provenance for the web service itself, now considered an entity, is recorded in Git systems and referenced by each \textit{ProvWF} execution. \textbf{B}. Reified provenance for a single RDF triple associated with the \textit{ProvWF} Block instance that generated it.}
-  \end{figure*}
+\end{figure*}
 %-------------------------------------------------------------------------------
 
-\subsection{Semantic document querying}
-Another project of ours involved decomposing a large industry specification into not only structural but also semantic elements (phrase meanings, synonyms, diagram descriptions, terminology lists, algorithm elements) to facilitate natural language and na\"ive searching of it.
+Since shortly after the publication of PROV, SURROUND has watched extensions to it, or specialisations of it, for workflows. Our workflow modelling 
+follows fairly simple PROV extensions such as PROV-Wf \cite{costa_2013} however, we find that the \texttt{Plan},
+or instructions for workflow execution are naturally recorded within the workflow's defining software
+code, so our \textit{ProvWF} tool records a URI reference to the version of the code (the Git \textit{commit} or \textit{release}) that was executed.
+\textit{ProvWF} requires custom PROV-style logging to be defined per custom \textit{Block}, unless pre-defined \textit{Block} instances from our 
+\textit{Block Library} are used. We have considered systems that generate PROV-compatable workflow provenance more automatically from defined 
+workflow elements, such as \cite{prabhune_prov2one_2016} but have, so far, found that the level of workflow specification needed for those approaches 
+(using a specialised business process modelling language) exceeds the provenance granularity we need for our workflows and forces us to simple define 
+non-executable data structures as complex as simple directly defining PROV itself (perhaps more so).
+
+Some recent work on scientific workflow provenance \cite{butt_provenance_2021} focus on modelling control flow to 
+answer questions such as ``what are the reasons for divergent results in two executions of a workflow?''. Currently we do not implement such 
+modelling in \textit{ProvWF} or any other tool and instead represent workflows only as a simple \textit{Workflow} containing \textit{Blocks} that are 
+arranged liniarly in time: all control flow decision making is subsumed into \textit{Blocks} which does make them complex, but, so far, we have been 
+able to model all interesting control flow choices as \textit{Block} inputs or outputs. If, in future projects, we are interested to further focus on
+particular workflows' control flow elements, we anticipate representing them as a specialised \textit{Block} with templated (expected) inputs and 
+outputs and then comparing instances of that specialised \textit{Block} to discover control flow choices.
+
+\subsection{Project 2: Document semantic querying}
+Another project of ours involved decomposing a large industry specification document into not only structural but also semantic elements (phrase
+meanings, synonyms, diagram descriptions, terminology lists, algorithm elements) to facilitate natural language and na\"ive searching of it. To track
+the efficacy of different document content decomposition methods and of different reference datasets - vocabularies of industry-specific terms etc. - 
+we implemented a multi-system proveance regime. This involved modelling datasets (often KGs) as PROV \textit{Entity} instances and tracking their 
+state over time as queries were put to the multi-part system. We tracked the inbound queries to our system as per work some of our authors conducted 
+many years ago \cite{car_enabling_2016} which treats each request as a PROV \texttt{Activity} from an anonymous \texttt{Agent} and for which results v. KG state are extracted from web logs.
+
+Tracking reference dataset state in this project was done through the use of our SOP tool whcih has had graph state tracking capability added to 
+it over many years and which allows for provenance about changes, new data insertions etc. to be recorded for both whole datasets within a set and 
+also elements within the datasets. In SOP we can refer to the state of a collection of assets with a single URI reference - a \textit{version} of an asset collection - and the provenance of queries and workflows quote that URI to ensure provenance cross querying is possible. 
+
+% TODO:
+% first scenario
+%   reference Plan use for workflow
+%   cite Butt but dismiss
+% second sceanrio
+%   finish above section
+%   any image for second scenario?
+
+%-------------------------------------------------------------------------------
+\section{Reflections on PROV modelling}
+%-------------------------------------------------------------------------------
+We have appreciated the graph-based nature of PROV-DM (in the PROV-O form that we use it) and find this aspec of PROV, along with the RDF methods for
+object identification and extensible schemas, to be the most useful aspect of PROV. These alow us to model ``anything'' at any level of granularity,
+store provenance data in one kind of system and cross query it to dive into elements, aggregate values etc.
+
+Few aspects of PROV have been problematic for us but those that have include:
+
+\begin{enumerate}
+  \item difficulty in storing a complex data in provenance graphs
+  \begin{itemize}
+    \item when we wish to store complex objects for provenance but don't want to persist them in data store seperately to provenance KGs, we have struggled to think of how to represent them, without resorting to excruciating Semantic Web modelling
+  \end{itemize}
+  \item linking \texttt{Entity} instances to \texttt{Plane} instances
+  \begin{itemize}
+    \item we want to be able to associate PROV \texttt{Entity} instances to the \texttt{Plan} instances used to instruct the workflows that generated them. PROV struggles to allow persstent \texttt{Entity} / \texttt{Plan} relations
+  \end{itemize}
+\end{enumerate}  
 
 %-------------------------------------------------------------------------------
 \section{Conclusions}
 %-------------------------------------------------------------------------------
-SURROUND uses fairly standard patterns with PROV-DM to model provenance across multiple systems and within different IT domains.
-We have easily adapted, and slightly specialised, the model to provide provenance that gives our customers confidence in the results
-they receive from us, particularly important for complex AI/ML applications, but have had to put conciderable effort into establishing
+SURROUND uses fairly standard patterns with PROV to model provenance across multiple systems and within different IT domains.
+We have easily adapted the PROV model to provide provenance that gives our customers confidence in the results
+they receive from us via access to individual results' lineage, particularly important for complex AI/ML applications, and gives us the 
+ability to learn how our multi-part systems perform against tasks through cohesive logging. We have put conciderable effort into establishing
 technical interfaces, interactions and integrations between our tools. We have developed both dedicated provenance tools and provenance
-capability within generic tools.
+capability within generic tools. We have not, so far, had to use highly specialised versions of PROV to achieve our goals.
 
 %-------------------------------------------------------------------------------
 \bibliographystyle{plain}
